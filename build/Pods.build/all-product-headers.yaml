@@ -4,82 +4,82 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Users/reKlanirs/Documents/workspace/Swift/UT/build/Debug-iphonesimulator/Alamofire.framework/Headers",
+      'name': "/Users/reKlanirs/Documents/workspace/Github/UT/build/Debug-iphonesimulator/Alamofire.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "Alamofire-Swift.h",
-          'external-contents': "/Users/reKlanirs/Documents/workspace/Swift/UT/build/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire-Swift.h"
+          'external-contents': "/Users/reKlanirs/Documents/workspace/Github/UT/build/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire-Swift.h"
         },
         {
           'type': 'file',
           'name': "Alamofire-umbrella.h",
-          'external-contents': "/Users/reKlanirs/Documents/workspace/Swift/UT/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+          'external-contents': "/Users/reKlanirs/Documents/workspace/Github/UT/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/reKlanirs/Documents/workspace/Swift/UT/build/Debug-iphonesimulator/Alamofire.framework/Modules",
+      'name': "/Users/reKlanirs/Documents/workspace/Github/UT/build/Debug-iphonesimulator/Alamofire.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/reKlanirs/Documents/workspace/Swift/UT/build/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
+          'external-contents': "/Users/reKlanirs/Documents/workspace/Github/UT/build/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/reKlanirs/Documents/workspace/Swift/UT/build/Debug-iphonesimulator/Kanna.framework/Headers",
+      'name': "/Users/reKlanirs/Documents/workspace/Github/UT/build/Debug-iphonesimulator/Kanna.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "Kanna-Swift.h",
-          'external-contents': "/Users/reKlanirs/Documents/workspace/Swift/UT/build/Debug-iphonesimulator/Kanna.framework/Headers/Kanna-Swift.h"
+          'external-contents': "/Users/reKlanirs/Documents/workspace/Github/UT/build/Debug-iphonesimulator/Kanna.framework/Headers/Kanna-Swift.h"
         },
         {
           'type': 'file',
           'name': "Kanna-umbrella.h",
-          'external-contents': "/Users/reKlanirs/Documents/workspace/Swift/UT/Pods/Target Support Files/Kanna/Kanna-umbrella.h"
+          'external-contents': "/Users/reKlanirs/Documents/workspace/Github/UT/Pods/Target Support Files/Kanna/Kanna-umbrella.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/reKlanirs/Documents/workspace/Swift/UT/build/Debug-iphonesimulator/Kanna.framework/Modules",
+      'name': "/Users/reKlanirs/Documents/workspace/Github/UT/build/Debug-iphonesimulator/Kanna.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/reKlanirs/Documents/workspace/Swift/UT/build/Pods.build/Debug-iphonesimulator/Kanna.build/module.modulemap"
+          'external-contents': "/Users/reKlanirs/Documents/workspace/Github/UT/build/Pods.build/Debug-iphonesimulator/Kanna.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/reKlanirs/Documents/workspace/Swift/UT/build/Debug-iphonesimulator/Pods_UT.framework/Headers",
+      'name': "/Users/reKlanirs/Documents/workspace/Github/UT/build/Debug-iphonesimulator/Pods_UT.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "Pods-UT-umbrella.h",
-          'external-contents': "/Users/reKlanirs/Documents/workspace/Swift/UT/Pods/Target Support Files/Pods-UT/Pods-UT-umbrella.h"
+          'external-contents': "/Users/reKlanirs/Documents/workspace/Github/UT/Pods/Target Support Files/Pods-UT/Pods-UT-umbrella.h"
         },
         {
           'type': 'file',
           'name': "Pods_UT-Swift.h",
-          'external-contents': "/Users/reKlanirs/Documents/workspace/Swift/UT/build/Debug-iphonesimulator/Pods_UT.framework/Headers/Pods_UT-Swift.h"
+          'external-contents': "/Users/reKlanirs/Documents/workspace/Github/UT/build/Debug-iphonesimulator/Pods_UT.framework/Headers/Pods_UT-Swift.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/reKlanirs/Documents/workspace/Swift/UT/build/Debug-iphonesimulator/Pods_UT.framework/Modules",
+      'name': "/Users/reKlanirs/Documents/workspace/Github/UT/build/Debug-iphonesimulator/Pods_UT.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/reKlanirs/Documents/workspace/Swift/UT/build/Pods.build/Debug-iphonesimulator/Pods-UT.build/module.modulemap"
+          'external-contents': "/Users/reKlanirs/Documents/workspace/Github/UT/build/Pods.build/Debug-iphonesimulator/Pods-UT.build/module.modulemap"
         }
       ]
     }

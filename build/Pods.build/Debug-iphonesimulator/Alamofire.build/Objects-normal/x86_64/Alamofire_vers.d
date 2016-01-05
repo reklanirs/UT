@@ -1,2 +1,2 @@
 dependencies: \
-  /Users/reKlanirs/Documents/workspace/Swift/UT/build/Pods.build/Debug-iphonesimulator/Alamofire.build/DerivedSources/Alamofire_vers.c
+  /Users/reKlanirs/Documents/workspace/Github/UT/build/Pods.build/Debug-iphonesimulator/Alamofire.build/DerivedSources/Alamofire_vers.c

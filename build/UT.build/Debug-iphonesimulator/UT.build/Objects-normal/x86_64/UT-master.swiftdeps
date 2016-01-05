@@ -1,6 +1,6 @@
 version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
-options: "ab8312e0d948ff0d48c01ba1cc6b1bb9"
-build_time: [505276151, 248932000]
+options: "76b8a9ae20c532f9e0f025ce1ae7e70e"
+build_time: [505299555, 307769000]
 inputs:
-  "/Users/reKlanirs/Documents/workspace/Swift/UT/UT/ViewController.swift": [505276150, 0]
-  "/Users/reKlanirs/Documents/workspace/Swift/UT/UT/AppDelegate.swift": [505190848, 0]
+  "/Users/reKlanirs/Documents/workspace/Github/UT/UT/AppDelegate.swift": [505278005, 0]
+  "/Users/reKlanirs/Documents/workspace/Github/UT/UT/ViewController.swift": [505299554, 0]

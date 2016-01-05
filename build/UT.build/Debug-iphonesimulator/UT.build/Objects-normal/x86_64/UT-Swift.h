@@ -122,6 +122,10 @@ SWIFT_CLASS("_TtC2UT14ViewController")
 @property (nonatomic, weak) IBOutlet UITextView * __null_unspecified bg_output;
 @property (nonatomic, weak) IBOutlet UITextView * __null_unspecified bd_output;
 @property (nonatomic, weak) IBOutlet UITextView * __null_unspecified yd_output;
+@property (nonatomic, copy) NSString * __nonnull transource;
+@property (nonatomic, readonly, copy) NSArray<NSString *> * __nonnull gg_dict;
+@property (nonatomic, readonly, copy) NSArray<NSString *> * __nonnull bg_dict;
+@property (nonatomic, readonly, copy) NSArray<NSString *> * __nonnull bd_dict;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (BOOL)textFieldShouldReturn:(UITextField * __nonnull)textField;
@@ -130,6 +134,13 @@ SWIFT_CLASS("_TtC2UT14ViewController")
 - (NSInteger)numberOfComponentsInPickerView:(UIPickerView * __nonnull)pickerView;
 - (NSInteger)pickerView:(UIPickerView * __nonnull)pickerView numberOfRowsInComponent:(NSInteger)component;
 - (NSString * __nullable)pickerView:(UIPickerView * __nonnull)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component;
+- (BOOL)textViewShouldEndEditing:(UITextView * __nonnull)textView;
+- (void)frame_init;
+- (void)transAll;
+- (void)gg_test:(NSString * __nonnull)sl tl:(NSString * __nonnull)tl;
+- (void)bg_test:(NSString * __nonnull)sl tl:(NSString * __nonnull)tl;
+- (void)bd_test:(NSString * __nonnull)sl tl:(NSString * __nonnull)tl;
+- (void)yd_test;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

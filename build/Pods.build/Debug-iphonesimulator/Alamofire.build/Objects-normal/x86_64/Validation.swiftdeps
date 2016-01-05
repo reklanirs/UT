@@ -15,27 +15,27 @@ provides-member:
 - ["C9Alamofire7Request", "validate"]
 provides-dynamic-lookup:
 depends-top-level:
+- !private "Bool"
 - !private "..<"
+- !private "String"
 - !private ">"
 - !private "~="
 - !private "=="
 - !private "SequenceType"
-- "NSHTTPURLResponse"
 - "StringLiteralType"
-- !private "??"
-- "Request"
-- !private "&&"
-- !private "String"
-- !private "Bool"
-- "NSURLRequest"
-- !private "NSCharacterSet"
-- !private "Range"
-- "NSError"
-- !private "+"
 - !private "Int"
 - !private "Error"
-- "UnicodeScalarType"
+- !private "&&"
+- !private "Range"
+- "NSURLRequest"
+- !private "??"
+- "NSHTTPURLResponse"
+- "NSError"
+- !private "NSCharacterSet"
+- "Request"
 - !private "BooleanLiteralType"
+- "UnicodeScalarType"
+- !private "+"
 depends-member:
 - !private ["PSs9AnyObject", "Error"]
 - !private ["PSs9AnyObject", "MIMEType"]
@@ -727,8 +727,8 @@ depends-nominal:
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
-- "/Users/reKlanirs/Documents/workspace/Swift/UT/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
-- "/Users/reKlanirs/Documents/workspace/Swift/UT/build/Pods.build/Debug-iphonesimulator/Alamofire.build/unextended-module.modulemap"
+- "/Users/reKlanirs/Documents/workspace/Github/UT/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+- "/Users/reKlanirs/Documents/workspace/Github/UT/build/Pods.build/Debug-iphonesimulator/Alamofire.build/unextended-module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"

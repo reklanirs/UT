@@ -13,20 +13,20 @@ provides-member:
 - ["C5Kanna8HTMLNode", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "xmlNodePtr"
-- "HTMLParser"
-- "FloatLiteralType"
-- "xmlNode"
-- "UnsafePointer"
-- "ConvXmlCharToString"
-- "rawContentsOfNode"
-- "xmlChar"
 - "String"
+- "HTMLParser"
+- "xmlNodePtr"
+- "Int"
+- "FloatLiteralType"
+- "xmlChar"
+- "xmlNode"
+- "ConvXmlCharToString"
+- "UnsafePointer"
+- "rawContentsOfNode"
 - "HTMLNode"
+- "IntegerLiteralType"
 - !private "StringLiteralType"
 - "DUMP_BUFFER_SIZE"
-- "Int"
-- "IntegerLiteralType"
 depends-member:
 - ["PSs9AnyObject", ""]
 - ["C5Kanna8HTMLNode", "deinit"]
@@ -42,9 +42,9 @@ depends-nominal:
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
-- "/Users/reKlanirs/Documents/workspace/Swift/UT/Pods/Kanna/Modules/module.modulemap"
-- "/Users/reKlanirs/Documents/workspace/Swift/UT/Pods/Target Support Files/Kanna/Kanna-umbrella.h"
-- "/Users/reKlanirs/Documents/workspace/Swift/UT/build/Pods.build/Debug-iphonesimulator/Kanna.build/unextended-module.modulemap"
+- "/Users/reKlanirs/Documents/workspace/Github/UT/Pods/Kanna/Modules/module.modulemap"
+- "/Users/reKlanirs/Documents/workspace/Github/UT/Pods/Target Support Files/Kanna/Kanna-umbrella.h"
+- "/Users/reKlanirs/Documents/workspace/Github/UT/build/Pods.build/Debug-iphonesimulator/Kanna.build/unextended-module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
