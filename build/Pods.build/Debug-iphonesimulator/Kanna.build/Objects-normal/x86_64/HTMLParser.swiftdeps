@@ -1,0 +1,55 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DUMP_BUFFER_SIZE"
+- "ConvXmlCharToString"
+- "rawContentsOfNode"
+- "HTMLParser"
+- "HTMLNode"
+provides-nominal:
+- "C5Kanna10HTMLParser"
+- "C5Kanna8HTMLNode"
+provides-member:
+- ["C5Kanna10HTMLParser", ""]
+- ["C5Kanna8HTMLNode", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "xmlNodePtr"
+- "HTMLParser"
+- "FloatLiteralType"
+- "xmlNode"
+- "UnsafePointer"
+- "ConvXmlCharToString"
+- "rawContentsOfNode"
+- "xmlChar"
+- "String"
+- "HTMLNode"
+- !private "StringLiteralType"
+- "DUMP_BUFFER_SIZE"
+- "Int"
+- "IntegerLiteralType"
+depends-member:
+- ["PSs9AnyObject", ""]
+- ["C5Kanna8HTMLNode", "deinit"]
+- ["C5Kanna8HTMLNode", "init"]
+- ["C5Kanna10HTMLParser", "deinit"]
+- ["C5Kanna10HTMLParser", "init"]
+- !private ["SQ", "deinit"]
+depends-nominal:
+- "PSs9AnyObject"
+- "C5Kanna8HTMLNode"
+- "C5Kanna10HTMLParser"
+- !private "SQ"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/reKlanirs/Documents/workspace/Swift/UT/Pods/Kanna/Modules/module.modulemap"
+- "/Users/reKlanirs/Documents/workspace/Swift/UT/Pods/Target Support Files/Kanna/Kanna-umbrella.h"
+- "/Users/reKlanirs/Documents/workspace/Swift/UT/build/Pods.build/Debug-iphonesimulator/Kanna.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "0ca656528875f891904d6a619ab2b7d7"

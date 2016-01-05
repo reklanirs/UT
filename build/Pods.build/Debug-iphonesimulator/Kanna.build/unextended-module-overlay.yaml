@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/reKlanirs/Documents/workspace/Swift/UT/build/Debug-iphonesimulator/Kanna.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/reKlanirs/Documents/workspace/Swift/UT/build/Pods.build/Debug-iphonesimulator/Kanna.build/unextended-module.modulemap',
+    }]
+  }]
+}

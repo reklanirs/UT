@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="UT" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PbT-2T-y6u">
+                                <rect key="frame" x="0.0" y="-216" width="320" height="216"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="53" id="ebf-pJ-weU">
+                                        <variation key="widthClass=compact" constant="70"/>
+                                    </constraint>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="ebf-pJ-weU"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="0.0" y="144" width="400" height="70"/>
+                                    <mask key="constraints">
+                                        <include reference="ebf-pJ-weU"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="nof-rs-mDl"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="K0I-wm-850"/>
+                                </connections>
+                            </pickerView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bh4-ZD-xnh">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="89" id="EH4-B7-j1B"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="EH4-B7-j1B"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="17" y="214" width="366" height="79"/>
+                                    <mask key="constraints">
+                                        <include reference="EH4-B7-j1B"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="lpI-Iv-gXY"/>
+                                </connections>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="K8C-zm-VXQ">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="89" id="Tow-SG-2BL"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Tow-SG-2BL"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="Tow-SG-2BL"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="m46-TC-QYi"/>
+                                </connections>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="nca-Wr-6A7">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="89" id="iXm-sn-zpE"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="iXm-sn-zpE"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="iXm-sn-zpE"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="4iH-Sg-Bgw"/>
+                                </connections>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ech-pr-6hA">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="89" id="G5s-F5-bD8"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="G5s-F5-bD8"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="G5s-F5-bD8"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="CHy-ja-zu4"/>
+                                </connections>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="OdN-aW-IPr">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="127" id="nNE-K6-Qfu"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="nNE-K6-Qfu"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="17" y="20" width="366" height="127"/>
+                                    <mask key="constraints">
+                                        <include reference="nNE-K6-Qfu"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="t9G-G2-Iac"/>
+                                </connections>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="→" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HO1-Dy-Rq7">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="192" y="168" width="17" height="21"/>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="PbT-2T-y6u" firstAttribute="top" secondItem="OdN-aW-IPr" secondAttribute="bottom" constant="8" symbolic="YES" id="2iQ-gw-w3g">
+                                <variation key="widthClass=compact" constant="-3"/>
+                            </constraint>
+                            <constraint firstItem="HO1-Dy-Rq7" firstAttribute="top" secondItem="OdN-aW-IPr" secondAttribute="bottom" constant="21" id="3nS-5q-3sm"/>
+                            <constraint firstItem="K8C-zm-VXQ" firstAttribute="leading" secondItem="nca-Wr-6A7" secondAttribute="leading" id="5nz-IA-QG3"/>
+                            <constraint firstItem="bh4-ZD-xnh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-3" id="8rU-8c-mOt"/>
+                            <constraint firstItem="OdN-aW-IPr" firstAttribute="trailing" secondItem="bh4-ZD-xnh" secondAttribute="trailing" id="9tb-OT-Cui"/>
+                            <constraint firstItem="bh4-ZD-xnh" firstAttribute="top" secondItem="PbT-2T-y6u" secondAttribute="bottom" constant="6" id="D3f-rh-x4n">
+                                <variation key="widthClass=compact" constant="0.0"/>
+                            </constraint>
+                            <constraint firstItem="nca-Wr-6A7" firstAttribute="top" secondItem="K8C-zm-VXQ" secondAttribute="bottom" constant="9" id="J12-yq-RRn"/>
+                            <constraint firstItem="HO1-Dy-Rq7" firstAttribute="centerX" secondItem="PbT-2T-y6u" secondAttribute="centerX" id="Kz8-fL-p7N"/>
+                            <constraint firstItem="PbT-2T-y6u" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="PLi-Xt-mCM"/>
+                            <constraint firstItem="K8C-zm-VXQ" firstAttribute="top" secondItem="bh4-ZD-xnh" secondAttribute="bottom" constant="8" symbolic="YES" id="PtY-rL-68x"/>
+                            <constraint firstItem="OdN-aW-IPr" firstAttribute="leading" secondItem="bh4-ZD-xnh" secondAttribute="leading" id="Qhu-cm-luc"/>
+                            <constraint firstItem="bh4-ZD-xnh" firstAttribute="leading" secondItem="K8C-zm-VXQ" secondAttribute="leading" id="TLY-Wb-h8H"/>
+                            <constraint firstItem="K8C-zm-VXQ" firstAttribute="trailing" secondItem="nca-Wr-6A7" secondAttribute="trailing" id="XTh-QE-xfX"/>
+                            <constraint firstItem="ech-pr-6hA" firstAttribute="top" secondItem="nca-Wr-6A7" secondAttribute="bottom" constant="8" symbolic="YES" id="g65-PK-axa"/>
+                            <constraint firstItem="bh4-ZD-xnh" firstAttribute="trailing" secondItem="K8C-zm-VXQ" secondAttribute="trailing" id="iZI-u2-bZI"/>
+                            <constraint firstItem="bh4-ZD-xnh" firstAttribute="centerX" secondItem="PbT-2T-y6u" secondAttribute="centerX" id="lEp-WC-msY"/>
+                            <constraint firstItem="OdN-aW-IPr" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="lwd-tI-ez8"/>
+                            <constraint firstItem="ech-pr-6hA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-4" id="nmT-b6-omE"/>
+                            <constraint firstItem="HO1-Dy-Rq7" firstAttribute="centerY" secondItem="PbT-2T-y6u" secondAttribute="centerY" id="od2-vr-oVL"/>
+                            <constraint firstItem="PbT-2T-y6u" firstAttribute="centerX" secondItem="ech-pr-6hA" secondAttribute="centerX" id="rev-y7-3vm"/>
+                            <constraint firstAttribute="trailing" secondItem="PbT-2T-y6u" secondAttribute="trailing" id="v3F-Mg-waQ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ech-pr-6hA" secondAttribute="bottom" constant="15" id="yol-EK-6Wo"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="PbT-2T-y6u"/>
+                                <exclude reference="bh4-ZD-xnh"/>
+                                <exclude reference="K8C-zm-VXQ"/>
+                                <exclude reference="nca-Wr-6A7"/>
+                                <exclude reference="ech-pr-6hA"/>
+                                <exclude reference="OdN-aW-IPr"/>
+                                <exclude reference="HO1-Dy-Rq7"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="9tb-OT-Cui"/>
+                                <exclude reference="Qhu-cm-luc"/>
+                                <exclude reference="lwd-tI-ez8"/>
+                                <exclude reference="2iQ-gw-w3g"/>
+                                <exclude reference="PLi-Xt-mCM"/>
+                                <exclude reference="rev-y7-3vm"/>
+                                <exclude reference="v3F-Mg-waQ"/>
+                                <exclude reference="8rU-8c-mOt"/>
+                                <exclude reference="D3f-rh-x4n"/>
+                                <exclude reference="TLY-Wb-h8H"/>
+                                <exclude reference="iZI-u2-bZI"/>
+                                <exclude reference="lEp-WC-msY"/>
+                                <exclude reference="3nS-5q-3sm"/>
+                                <exclude reference="Kz8-fL-p7N"/>
+                                <exclude reference="od2-vr-oVL"/>
+                                <exclude reference="5nz-IA-QG3"/>
+                                <exclude reference="PtY-rL-68x"/>
+                                <exclude reference="XTh-QE-xfX"/>
+                                <exclude reference="J12-yq-RRn"/>
+                                <exclude reference="g65-PK-axa"/>
+                                <exclude reference="nmT-b6-omE"/>
+                                <exclude reference="yol-EK-6Wo"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="PbT-2T-y6u"/>
+                                <include reference="bh4-ZD-xnh"/>
+                                <include reference="K8C-zm-VXQ"/>
+                                <include reference="nca-Wr-6A7"/>
+                                <include reference="ech-pr-6hA"/>
+                                <include reference="OdN-aW-IPr"/>
+                                <include reference="HO1-Dy-Rq7"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="9tb-OT-Cui"/>
+                                <include reference="Qhu-cm-luc"/>
+                                <include reference="lwd-tI-ez8"/>
+                                <include reference="2iQ-gw-w3g"/>
+                                <include reference="PLi-Xt-mCM"/>
+                                <include reference="rev-y7-3vm"/>
+                                <include reference="v3F-Mg-waQ"/>
+                                <include reference="8rU-8c-mOt"/>
+                                <include reference="D3f-rh-x4n"/>
+                                <include reference="TLY-Wb-h8H"/>
+                                <include reference="iZI-u2-bZI"/>
+                                <include reference="lEp-WC-msY"/>
+                                <include reference="3nS-5q-3sm"/>
+                                <include reference="Kz8-fL-p7N"/>
+                                <include reference="od2-vr-oVL"/>
+                                <include reference="5nz-IA-QG3"/>
+                                <include reference="PtY-rL-68x"/>
+                                <include reference="XTh-QE-xfX"/>
+                                <include reference="J12-yq-RRn"/>
+                                <include reference="g65-PK-axa"/>
+                                <include reference="nmT-b6-omE"/>
+                                <include reference="yol-EK-6Wo"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="bd_output" destination="nca-Wr-6A7" id="xqX-uc-aGW"/>
+                        <outlet property="bg_output" destination="K8C-zm-VXQ" id="7NN-Rr-swc"/>
+                        <outlet property="gg_output" destination="bh4-ZD-xnh" id="3fU-LU-tKF"/>
+                        <outlet property="input" destination="OdN-aW-IPr" id="Ag0-wU-bl9"/>
+                        <outlet property="picker" destination="PbT-2T-y6u" id="IhM-pU-NgV"/>
+                        <outlet property="yd_output" destination="ech-pr-6hA" id="ol0-tE-sQj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="457.5" y="389"/>
+        </scene>
+    </scenes>
+</document>

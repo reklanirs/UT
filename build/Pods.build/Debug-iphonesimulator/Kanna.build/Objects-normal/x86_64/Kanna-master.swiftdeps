@@ -1,0 +1,10 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "85ff204148017455653b036bd6c6ed41"
+build_time: [505190935, 480197000]
+inputs:
+  "/Users/reKlanirs/Documents/workspace/Swift/UT/Pods/Kanna/Source/CSS.swift": [505190927, 0]
+  "/Users/reKlanirs/Documents/workspace/Swift/UT/Pods/Kanna/Source/Kanna.swift": [505190927, 0]
+  "/Users/reKlanirs/Documents/workspace/Swift/UT/Pods/Kanna/Source/libxml/libxmlHTMLNode.swift": [505190927, 0]
+  "/Users/reKlanirs/Documents/workspace/Swift/UT/Pods/Kanna/Source/_obsolete/HTMLParser.swift": [505190927, 0]
+  "/Users/reKlanirs/Documents/workspace/Swift/UT/Pods/Kanna/Source/libxml/libxmlParserOption.swift": [505190927, 0]
+  "/Users/reKlanirs/Documents/workspace/Swift/UT/Pods/Kanna/Source/libxml/libxmlHTMLDocument.swift": [505190927, 0]
