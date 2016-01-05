@@ -135,7 +135,6 @@
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="OdN-aW-IPr">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="127" id="nNE-K6-Qfu"/>
                                 </constraints>
@@ -167,7 +166,7 @@
                                 </variation>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.88235294117647056" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="PbT-2T-y6u" firstAttribute="top" secondItem="OdN-aW-IPr" secondAttribute="bottom" constant="8" symbolic="YES" id="2iQ-gw-w3g">
                                 <variation key="widthClass=compact" constant="-3"/>

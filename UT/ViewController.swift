@@ -40,6 +40,16 @@ class ViewController: UIViewController, UIPickerViewDelegate, UITextViewDelegate
         self.input.text = "input here"
         
         frame_init()
+        
+        let image = UIImage(contentsOfFile: "resource/test.jpg")
+        let imageview = UIImageView(image: image)
+        self.view.addSubview(imageview)
+        
+        let myView = UIView.init(frame: CGRectMake(0,0,320,568))
+        let bgImgView = UIImageView.init(frame: CGRectMake(0,0,320,568))
+        
+        myView.addSubview(imageview)
+        myView.sendSubviewToBack(imageview)
     }
 
     override func didReceiveMemoryWarning() {

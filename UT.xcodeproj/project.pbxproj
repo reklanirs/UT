@@ -15,6 +15,10 @@
 		BE65FB161C3A14C000C087B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE65FB141C3A14C000C087B7 /* LaunchScreen.storyboard */; };
 		BE65FB211C3A14C000C087B7 /* UTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE65FB201C3A14C000C087B7 /* UTTests.swift */; };
 		BE65FB2C1C3A14C000C087B7 /* UTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE65FB2B1C3A14C000C087B7 /* UTUITests.swift */; };
+		BEE806A61C3BC087001112AC /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEE806A51C3BC087001112AC /* test.jpg */; };
+		BEE806E71C3BF190001112AC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BEE806E41C3BF190001112AC /* Icon.png */; };
+		BEE806E81C3BF190001112AC /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEE806E51C3BF190001112AC /* Icon@2x.png */; };
+		BEE806E91C3BF190001112AC /* icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEE806E61C3BF190001112AC /* icon@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +54,10 @@
 		BE65FB271C3A14C000C087B7 /* UTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE65FB2B1C3A14C000C087B7 /* UTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UTUITests.swift; sourceTree = "<group>"; };
 		BE65FB2D1C3A14C000C087B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEE806A51C3BC087001112AC /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = test.jpg; path = UT/test.jpg; sourceTree = "<group>"; };
+		BEE806E41C3BF190001112AC /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		BEE806E51C3BF190001112AC /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		BEE806E61C3BF190001112AC /* icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@3x.png"; sourceTree = "<group>"; };
 		D9DF49B7B5A413539E1426C3 /* Pods-UT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UT/Pods-UT.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,6 +107,7 @@
 		BE65FAFF1C3A14C000C087B7 = {
 			isa = PBXGroup;
 			children = (
+				BEE806A81C3BC0A3001112AC /* resource */,
 				BE65FB0A1C3A14C000C087B7 /* UT */,
 				BE65FB1F1C3A14C000C087B7 /* UTTests */,
 				BE65FB2A1C3A14C000C087B7 /* UTUITests */,
@@ -147,6 +156,33 @@
 				BE65FB2D1C3A14C000C087B7 /* Info.plist */,
 			);
 			path = UTUITests;
+			sourceTree = "<group>";
+		};
+		BEE806A81C3BC0A3001112AC /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				BEE806E21C3BF171001112AC /* Image */,
+				BEE806A51C3BC087001112AC /* test.jpg */,
+			);
+			name = resource;
+			sourceTree = "<group>";
+		};
+		BEE806E21C3BF171001112AC /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				BEE806E31C3BF176001112AC /* Icon */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		BEE806E31C3BF176001112AC /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				BEE806E41C3BF190001112AC /* Icon.png */,
+				BEE806E51C3BF190001112AC /* Icon@2x.png */,
+				BEE806E61C3BF190001112AC /* icon@3x.png */,
+			);
+			name = Icon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,8 +296,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE65FB161C3A14C000C087B7 /* LaunchScreen.storyboard in Resources */,
+				BEE806E91C3BF190001112AC /* icon@3x.png in Resources */,
+				BEE806E81C3BF190001112AC /* Icon@2x.png in Resources */,
 				BE65FB131C3A14C000C087B7 /* Assets.xcassets in Resources */,
+				BEE806E71C3BF190001112AC /* Icon.png in Resources */,
 				BE65FB111C3A14C000C087B7 /* Main.storyboard in Resources */,
+				BEE806A61C3BC087001112AC /* test.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

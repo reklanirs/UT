@@ -6,67 +6,76 @@ provides-nominal:
 provides-member:
 - ["C2UT14ViewController", ""]
 provides-dynamic-lookup:
-- "textFieldShouldReturn"
-- "bd_dict"
-- "pickerView"
-- "pickerView"
-- "gg_output"
-- "picker"
-- "frame_init"
-- "gg_dict"
-- "bg_output"
-- "lang"
-- "bg_test"
-- "yd_output"
-- "gg_test"
-- "textViewShouldEndEditing"
-- "viewDidLoad"
-- "transAll"
-- "bd_test"
-- "input"
 - "transource"
-- "bd_output"
 - "bg_dict"
-- "textView"
-- "numberOfComponentsInPickerView"
-- "didReceiveMemoryWarning"
+- "bd_test"
+- "picker"
 - "yd_test"
+- "viewDidLoad"
+- "bd_output"
+- "gg_test"
+- "bg_test"
+- "lang"
+- "gg_output"
+- "gg_dict"
+- "textView"
+- "transAll"
+- "pickerView"
+- "pickerView"
+- "didReceiveMemoryWarning"
+- "textFieldShouldReturn"
+- "yd_output"
+- "bd_dict"
+- "numberOfComponentsInPickerView"
+- "bg_output"
+- "frame_init"
+- "input"
+- "textViewShouldEndEditing"
 depends-top-level:
 - !private "+"
-- !private "Kanna"
-- "Array"
 - "ViewController"
-- !private "BooleanLiteralType"
-- "UIPickerView"
-- "Int"
-- "UIPickerViewDelegate"
-- "UIViewController"
-- "Bool"
-- !private "print"
+- "String"
 - "StringLiteralType"
-- !private "<="
-- "UITextViewDelegate"
-- !private "NSUTF8StringEncoding"
-- "NSRange"
-- "UnicodeScalarType"
+- !private "Kanna"
+- !private "print"
+- "UIPickerViewDelegate"
+- !private "=="
 - !private "UIColor"
-- !private "Dictionary"
+- "UIViewController"
+- "Int"
+- "NSRange"
+- "UIPickerView"
+- !private "UIImage"
+- "Bool"
+- !private "BooleanLiteralType"
 - "UITextField"
+- !private "Dictionary"
+- "UITextViewDelegate"
+- "UnicodeScalarType"
+- "Array"
+- !private "UIView"
+- !private "<="
 - !private "Alamofire"
 - "UITextView"
-- !private "=="
-- "String"
+- !private "UIImageView"
+- !private "CGRectMake"
+- !private "NSUTF8StringEncoding"
 depends-member:
 - !private ["PSs16AbsoluteValuable", "IntegerLiteralType"]
 - !private ["PSs16AbsoluteValuable", "Stride"]
 - !private ["CSs12AnyGenerator", "Element"]
 - !private ["PSs9AnyObject", "Alamofire"]
 - !private ["PSs9AnyObject", "CGColor"]
+- !private ["PSs9AnyObject", "CGRectMake"]
 - !private ["PSs9AnyObject", "Element"]
 - !private ["PSs9AnyObject", "Generator"]
 - !private ["PSs9AnyObject", "Kanna"]
 - !private ["PSs9AnyObject", "NSUTF8StringEncoding"]
 - !private ["PSs9AnyObject", "UIColor"]
+- !private ["PSs9AnyObject", "UIImage"]
+- !private ["PSs9AnyObject", "UIImageView"]
+- !private ["PSs9AnyObject", "UIView"]
+- !private ["PSs9AnyObject", "addSubview"]
 - ["PSs9AnyObject", "bd_dict"]
 - ["PSs9AnyObject", "bd_output"]
 - ["PSs9AnyObject", "bd_test"]
@@ -109,6 +118,7 @@ depends-member:
 - ["PSs9AnyObject", "scrollViewWillBeginZooming"]
 - ["PSs9AnyObject", "scrollViewWillEndDragging"]
 - !private ["PSs9AnyObject", "selectedRowInComponent"]
+- !private ["PSs9AnyObject", "sendSubviewToBack"]
 - !private ["PSs9AnyObject", "subscript"]
 - !private ["PSs9AnyObject", "text"]
 - ["PSs9AnyObject", "textFieldShouldReturn"]
@@ -121,6 +131,7 @@ depends-member:
 - ["PSs9AnyObject", "textViewShouldEndEditing"]
 - ["PSs9AnyObject", "transAll"]
 - ["PSs9AnyObject", "transource"]
+- !private ["PSs9AnyObject", "view"]
 - ["PSs9AnyObject", "viewDidLoad"]
 - ["PSs9AnyObject", "viewForZoomingInScrollView"]
 - ["PSs9AnyObject", "yd_output"]
@@ -165,13 +176,18 @@ depends-member:
 - !private ["V12CoreGraphics7CGFloat", "deinit"]
 - !private ["PSs11CVarArgType", "Alamofire"]
 - !private ["PSs11CVarArgType", "CGColor"]
+- !private ["PSs11CVarArgType", "CGRectMake"]
 - !private ["PSs11CVarArgType", "Distance"]
 - !private ["PSs11CVarArgType", "IntegerLiteralType"]
 - !private ["PSs11CVarArgType", "Kanna"]
 - !private ["PSs11CVarArgType", "NSUTF8StringEncoding"]
 - !private ["PSs11CVarArgType", "Stride"]
 - !private ["PSs11CVarArgType", "UIColor"]
+- !private ["PSs11CVarArgType", "UIImage"]
+- !private ["PSs11CVarArgType", "UIImageView"]
+- !private ["PSs11CVarArgType", "UIView"]
 - !private ["PSs11CVarArgType", "_DisallowMixedSignArithmetic"]
+- !private ["PSs11CVarArgType", "addSubview"]
 - ["PSs11CVarArgType", "bd_dict"]
 - ["PSs11CVarArgType", "bd_output"]
 - ["PSs11CVarArgType", "bd_test"]
@@ -212,6 +228,7 @@ depends-member:
 - ["PSs11CVarArgType", "scrollViewWillBeginZooming"]
 - ["PSs11CVarArgType", "scrollViewWillEndDragging"]
 - !private ["PSs11CVarArgType", "selectedRowInComponent"]
+- !private ["PSs11CVarArgType", "sendSubviewToBack"]
 - !private ["PSs11CVarArgType", "subscript"]
 - !private ["PSs11CVarArgType", "text"]
 - ["PSs11CVarArgType", "textFieldShouldReturn"]
@@ -224,6 +241,7 @@ depends-member:
 - ["PSs11CVarArgType", "textViewShouldEndEditing"]
 - ["PSs11CVarArgType", "transAll"]
 - ["PSs11CVarArgType", "transource"]
+- !private ["PSs11CVarArgType", "view"]
 - ["PSs11CVarArgType", "viewDidLoad"]
 - ["PSs11CVarArgType", "viewForZoomingInScrollView"]
 - ["PSs11CVarArgType", "yd_output"]
@@ -262,6 +280,7 @@ depends-member:
 - !private ["PSs28CustomDebugStringConvertible", "value"]
 - !private ["PSs23CustomStringConvertible", "Alamofire"]
 - !private ["PSs23CustomStringConvertible", "CGColor"]
+- !private ["PSs23CustomStringConvertible", "CGRectMake"]
 - !private ["PSs23CustomStringConvertible", "Distance"]
 - ["PSs23CustomStringConvertible", "Element"]
 - !private ["PSs23CustomStringConvertible", "Generator"]
@@ -273,9 +292,13 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "Stride"]
 - !private ["PSs23CustomStringConvertible", "SubSequence"]
 - !private ["PSs23CustomStringConvertible", "UIColor"]
+- !private ["PSs23CustomStringConvertible", "UIImage"]
+- !private ["PSs23CustomStringConvertible", "UIImageView"]
+- !private ["PSs23CustomStringConvertible", "UIView"]
 - !private ["PSs23CustomStringConvertible", "Value"]
 - !private ["PSs23CustomStringConvertible", "_DisallowMixedSignArithmetic"]
 - !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "addSubview"]
 - ["PSs23CustomStringConvertible", "bd_dict"]
 - ["PSs23CustomStringConvertible", "bd_output"]
 - ["PSs23CustomStringConvertible", "bd_test"]
@@ -321,6 +344,7 @@ depends-member:
 - ["PSs23CustomStringConvertible", "scrollViewWillBeginZooming"]
 - ["PSs23CustomStringConvertible", "scrollViewWillEndDragging"]
 - !private ["PSs23CustomStringConvertible", "selectedRowInComponent"]
+- !private ["PSs23CustomStringConvertible", "sendSubviewToBack"]
 - !private ["PSs23CustomStringConvertible", "subscript"]
 - !private ["PSs23CustomStringConvertible", "text"]
 - ["PSs23CustomStringConvertible", "textFieldShouldReturn"]
@@ -334,6 +358,7 @@ depends-member:
 - ["PSs23CustomStringConvertible", "transAll"]
 - ["PSs23CustomStringConvertible", "transource"]
 - !private ["PSs23CustomStringConvertible", "value"]
+- !private ["PSs23CustomStringConvertible", "view"]
 - ["PSs23CustomStringConvertible", "viewDidLoad"]
 - ["PSs23CustomStringConvertible", "viewForZoomingInScrollView"]
 - ["PSs23CustomStringConvertible", "yd_output"]
@@ -351,6 +376,7 @@ depends-member:
 - !private ["Sd", "deinit"]
 - !private ["PSs9Equatable", "Alamofire"]
 - !private ["PSs9Equatable", "CGColor"]
+- !private ["PSs9Equatable", "CGRectMake"]
 - !private ["PSs9Equatable", "Distance"]
 - !private ["PSs9Equatable", "GET"]
 - !private ["PSs9Equatable", "IntegerLiteralType"]
@@ -359,8 +385,12 @@ depends-member:
 - !private ["PSs9Equatable", "POST"]
 - !private ["PSs9Equatable", "Stride"]
 - !private ["PSs9Equatable", "UIColor"]
+- !private ["PSs9Equatable", "UIImage"]
+- !private ["PSs9Equatable", "UIImageView"]
+- !private ["PSs9Equatable", "UIView"]
 - !private ["PSs9Equatable", "_DisallowMixedSignArithmetic"]
 - !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "addSubview"]
 - ["PSs9Equatable", "bd_dict"]
 - ["PSs9Equatable", "bd_output"]
 - ["PSs9Equatable", "bd_test"]
@@ -401,6 +431,7 @@ depends-member:
 - ["PSs9Equatable", "scrollViewWillBeginZooming"]
 - ["PSs9Equatable", "scrollViewWillEndDragging"]
 - !private ["PSs9Equatable", "selectedRowInComponent"]
+- !private ["PSs9Equatable", "sendSubviewToBack"]
 - !private ["PSs9Equatable", "subscript"]
 - !private ["PSs9Equatable", "text"]
 - ["PSs9Equatable", "textFieldShouldReturn"]
@@ -413,6 +444,7 @@ depends-member:
 - ["PSs9Equatable", "textViewShouldEndEditing"]
 - ["PSs9Equatable", "transAll"]
 - ["PSs9Equatable", "transource"]
+- !private ["PSs9Equatable", "view"]
 - ["PSs9Equatable", "viewDidLoad"]
 - ["PSs9Equatable", "viewForZoomingInScrollView"]
 - ["PSs9Equatable", "yd_output"]
@@ -440,6 +472,7 @@ depends-member:
 - !private ["P5Kanna12HTMLDocument", "title"]
 - !private ["PSs8Hashable", "Alamofire"]
 - !private ["PSs8Hashable", "CGColor"]
+- !private ["PSs8Hashable", "CGRectMake"]
 - !private ["PSs8Hashable", "Distance"]
 - !private ["PSs8Hashable", "GET"]
 - !private ["PSs8Hashable", "IntegerLiteralType"]
@@ -448,8 +481,12 @@ depends-member:
 - !private ["PSs8Hashable", "POST"]
 - !private ["PSs8Hashable", "Stride"]
 - !private ["PSs8Hashable", "UIColor"]
+- !private ["PSs8Hashable", "UIImage"]
+- !private ["PSs8Hashable", "UIImageView"]
+- !private ["PSs8Hashable", "UIView"]
 - !private ["PSs8Hashable", "_DisallowMixedSignArithmetic"]
 - !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "addSubview"]
 - ["PSs8Hashable", "bd_dict"]
 - ["PSs8Hashable", "bd_output"]
 - ["PSs8Hashable", "bd_test"]
@@ -490,6 +527,7 @@ depends-member:
 - ["PSs8Hashable", "scrollViewWillBeginZooming"]
 - ["PSs8Hashable", "scrollViewWillEndDragging"]
 - !private ["PSs8Hashable", "selectedRowInComponent"]
+- !private ["PSs8Hashable", "sendSubviewToBack"]
 - !private ["PSs8Hashable", "subscript"]
 - !private ["PSs8Hashable", "text"]
 - ["PSs8Hashable", "textFieldShouldReturn"]
@@ -502,6 +540,7 @@ depends-member:
 - ["PSs8Hashable", "textViewShouldEndEditing"]
 - ["PSs8Hashable", "transAll"]
 - ["PSs8Hashable", "transource"]
+- !private ["PSs8Hashable", "view"]
 - ["PSs8Hashable", "viewDidLoad"]
 - ["PSs8Hashable", "viewForZoomingInScrollView"]
 - ["PSs8Hashable", "yd_output"]
@@ -569,9 +608,14 @@ depends-member:
 - !private ["PSs16MutableSliceable", "subscript"]
 - !private ["PSo8NSCoding", "Alamofire"]
 - !private ["PSo8NSCoding", "CGColor"]
+- !private ["PSo8NSCoding", "CGRectMake"]
 - !private ["PSo8NSCoding", "Kanna"]
 - !private ["PSo8NSCoding", "NSUTF8StringEncoding"]
 - !private ["PSo8NSCoding", "UIColor"]
+- !private ["PSo8NSCoding", "UIImage"]
+- !private ["PSo8NSCoding", "UIImageView"]
+- !private ["PSo8NSCoding", "UIView"]
+- !private ["PSo8NSCoding", "addSubview"]
 - ["PSo8NSCoding", "bd_dict"]
 - ["PSo8NSCoding", "bd_output"]
 - ["PSo8NSCoding", "bd_test"]
@@ -612,6 +656,7 @@ depends-member:
 - ["PSo8NSCoding", "scrollViewWillBeginZooming"]
 - ["PSo8NSCoding", "scrollViewWillEndDragging"]
 - !private ["PSo8NSCoding", "selectedRowInComponent"]
+- !private ["PSo8NSCoding", "sendSubviewToBack"]
 - !private ["PSo8NSCoding", "text"]
 - ["PSo8NSCoding", "textFieldShouldReturn"]
 - ["PSo8NSCoding", "textView"]
@@ -623,6 +668,7 @@ depends-member:
 - ["PSo8NSCoding", "textViewShouldEndEditing"]
 - ["PSo8NSCoding", "transAll"]
 - ["PSo8NSCoding", "transource"]
+- !private ["PSo8NSCoding", "view"]
 - ["PSo8NSCoding", "viewDidLoad"]
 - ["PSo8NSCoding", "viewForZoomingInScrollView"]
 - ["PSo8NSCoding", "yd_output"]
@@ -638,9 +684,13 @@ depends-member:
 - !private ["PSo9NSCopying", "redColor"]
 - !private ["PSo9NSCopying", "yellowColor"]
 - !private ["PSo26NSExtensionRequestHandling", "Alamofire"]
+- !private ["PSo26NSExtensionRequestHandling", "CGRectMake"]
 - !private ["PSo26NSExtensionRequestHandling", "Kanna"]
 - !private ["PSo26NSExtensionRequestHandling", "NSUTF8StringEncoding"]
 - !private ["PSo26NSExtensionRequestHandling", "UIColor"]
+- !private ["PSo26NSExtensionRequestHandling", "UIImage"]
+- !private ["PSo26NSExtensionRequestHandling", "UIImageView"]
+- !private ["PSo26NSExtensionRequestHandling", "UIView"]
 - ["PSo26NSExtensionRequestHandling", "bd_dict"]
 - ["PSo26NSExtensionRequestHandling", "bd_output"]
 - ["PSo26NSExtensionRequestHandling", "bd_test"]
@@ -681,6 +731,7 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "textViewShouldEndEditing"]
 - ["PSo26NSExtensionRequestHandling", "transAll"]
 - ["PSo26NSExtensionRequestHandling", "transource"]
+- !private ["PSo26NSExtensionRequestHandling", "view"]
 - ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
 - ["PSo26NSExtensionRequestHandling", "viewForZoomingInScrollView"]
 - ["PSo26NSExtensionRequestHandling", "yd_output"]
@@ -690,15 +741,20 @@ depends-member:
 - !private ["CSo8NSObject", "Alamofire"]
 - ["CSo8NSObject", "Bool"]
 - !private ["CSo8NSObject", "CGColor"]
+- !private ["CSo8NSObject", "CGRectMake"]
 - ["CSo8NSObject", "Int"]
 - !private ["CSo8NSObject", "Kanna"]
 - ["CSo8NSObject", "NSRange"]
 - !private ["CSo8NSObject", "NSUTF8StringEncoding"]
 - ["CSo8NSObject", "String"]
 - !private ["CSo8NSObject", "UIColor"]
+- !private ["CSo8NSObject", "UIImage"]
+- !private ["CSo8NSObject", "UIImageView"]
 - ["CSo8NSObject", "UIPickerView"]
 - ["CSo8NSObject", "UITextField"]
 - ["CSo8NSObject", "UITextView"]
+- !private ["CSo8NSObject", "UIView"]
+- !private ["CSo8NSObject", "addSubview"]
 - ["CSo8NSObject", "bd_dict"]
 - ["CSo8NSObject", "bd_output"]
 - ["CSo8NSObject", "bd_test"]
@@ -739,6 +795,7 @@ depends-member:
 - ["CSo8NSObject", "scrollViewWillBeginZooming"]
 - ["CSo8NSObject", "scrollViewWillEndDragging"]
 - !private ["CSo8NSObject", "selectedRowInComponent"]
+- !private ["CSo8NSObject", "sendSubviewToBack"]
 - !private ["CSo8NSObject", "subscript"]
 - !private ["CSo8NSObject", "text"]
 - ["CSo8NSObject", "textFieldShouldReturn"]
@@ -751,6 +808,7 @@ depends-member:
 - ["CSo8NSObject", "textViewShouldEndEditing"]
 - ["CSo8NSObject", "transAll"]
 - ["CSo8NSObject", "transource"]
+- !private ["CSo8NSObject", "view"]
 - ["CSo8NSObject", "viewDidLoad"]
 - ["CSo8NSObject", "viewForZoomingInScrollView"]
 - ["CSo8NSObject", "yd_output"]
@@ -758,9 +816,14 @@ depends-member:
 - !private ["CSo8NSObject", "yellowColor"]
 - !private ["PSo16NSObjectProtocol", "Alamofire"]
 - !private ["PSo16NSObjectProtocol", "CGColor"]
+- !private ["PSo16NSObjectProtocol", "CGRectMake"]
 - !private ["PSo16NSObjectProtocol", "Kanna"]
 - !private ["PSo16NSObjectProtocol", "NSUTF8StringEncoding"]
 - !private ["PSo16NSObjectProtocol", "UIColor"]
+- !private ["PSo16NSObjectProtocol", "UIImage"]
+- !private ["PSo16NSObjectProtocol", "UIImageView"]
+- !private ["PSo16NSObjectProtocol", "UIView"]
+- !private ["PSo16NSObjectProtocol", "addSubview"]
 - ["PSo16NSObjectProtocol", "bd_dict"]
 - ["PSo16NSObjectProtocol", "bd_output"]
 - ["PSo16NSObjectProtocol", "bd_test"]
@@ -801,6 +864,7 @@ depends-member:
 - ["PSo16NSObjectProtocol", "scrollViewWillBeginZooming"]
 - ["PSo16NSObjectProtocol", "scrollViewWillEndDragging"]
 - !private ["PSo16NSObjectProtocol", "selectedRowInComponent"]
+- !private ["PSo16NSObjectProtocol", "sendSubviewToBack"]
 - !private ["PSo16NSObjectProtocol", "subscript"]
 - !private ["PSo16NSObjectProtocol", "text"]
 - ["PSo16NSObjectProtocol", "textFieldShouldReturn"]
@@ -813,6 +877,7 @@ depends-member:
 - ["PSo16NSObjectProtocol", "textViewShouldEndEditing"]
 - ["PSo16NSObjectProtocol", "transAll"]
 - ["PSo16NSObjectProtocol", "transource"]
+- !private ["PSo16NSObjectProtocol", "view"]
 - ["PSo16NSObjectProtocol", "viewDidLoad"]
 - ["PSo16NSObjectProtocol", "viewForZoomingInScrollView"]
 - ["PSo16NSObjectProtocol", "yd_output"]
@@ -891,18 +956,29 @@ depends-member:
 - !private ["PSs30StringInterpolationConvertible", "init"]
 - !private ["PSs24StringLiteralConvertible", "init"]
 - !private ["CC9Alamofire7Request12TaskDelegate", "subscript"]
+- !private ["PSo29UIAccessibilityIdentification", "addSubview"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
 - !private ["PSo29UIAccessibilityIdentification", "layer"]
 - !private ["PSo29UIAccessibilityIdentification", "resignFirstResponder"]
 - !private ["PSo29UIAccessibilityIdentification", "selectedRowInComponent"]
+- !private ["PSo29UIAccessibilityIdentification", "sendSubviewToBack"]
 - !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "addSubview"]
+- !private ["PSo12UIAppearance", "init"]
 - !private ["PSo12UIAppearance", "layer"]
 - !private ["PSo12UIAppearance", "resignFirstResponder"]
 - !private ["PSo12UIAppearance", "selectedRowInComponent"]
+- !private ["PSo12UIAppearance", "sendSubviewToBack"]
 - !private ["PSo12UIAppearance", "text"]
 - !private ["PSo21UIAppearanceContainer", "Alamofire"]
+- !private ["PSo21UIAppearanceContainer", "CGRectMake"]
 - !private ["PSo21UIAppearanceContainer", "Kanna"]
 - !private ["PSo21UIAppearanceContainer", "NSUTF8StringEncoding"]
 - !private ["PSo21UIAppearanceContainer", "UIColor"]
+- !private ["PSo21UIAppearanceContainer", "UIImage"]
+- !private ["PSo21UIAppearanceContainer", "UIImageView"]
+- !private ["PSo21UIAppearanceContainer", "UIView"]
+- !private ["PSo21UIAppearanceContainer", "addSubview"]
 - ["PSo21UIAppearanceContainer", "bd_dict"]
 - ["PSo21UIAppearanceContainer", "bd_output"]
 - ["PSo21UIAppearanceContainer", "bd_test"]
@@ -936,6 +1012,7 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "scrollViewWillBeginZooming"]
 - ["PSo21UIAppearanceContainer", "scrollViewWillEndDragging"]
 - !private ["PSo21UIAppearanceContainer", "selectedRowInComponent"]
+- !private ["PSo21UIAppearanceContainer", "sendSubviewToBack"]
 - !private ["PSo21UIAppearanceContainer", "text"]
 - ["PSo21UIAppearanceContainer", "textFieldShouldReturn"]
 - ["PSo21UIAppearanceContainer", "textView"]
@@ -947,6 +1024,7 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "textViewShouldEndEditing"]
 - ["PSo21UIAppearanceContainer", "transAll"]
 - ["PSo21UIAppearanceContainer", "transource"]
+- !private ["PSo21UIAppearanceContainer", "view"]
 - ["PSo21UIAppearanceContainer", "viewDidLoad"]
 - ["PSo21UIAppearanceContainer", "viewForZoomingInScrollView"]
 - ["PSo21UIAppearanceContainer", "yd_output"]
@@ -959,9 +1037,13 @@ depends-member:
 - !private ["CSo7UIColor", "redColor"]
 - !private ["CSo7UIColor", "yellowColor"]
 - !private ["PSo18UIContentContainer", "Alamofire"]
+- !private ["PSo18UIContentContainer", "CGRectMake"]
 - !private ["PSo18UIContentContainer", "Kanna"]
 - !private ["PSo18UIContentContainer", "NSUTF8StringEncoding"]
 - !private ["PSo18UIContentContainer", "UIColor"]
+- !private ["PSo18UIContentContainer", "UIImage"]
+- !private ["PSo18UIContentContainer", "UIImageView"]
+- !private ["PSo18UIContentContainer", "UIView"]
 - ["PSo18UIContentContainer", "bd_dict"]
 - ["PSo18UIContentContainer", "bd_output"]
 - ["PSo18UIContentContainer", "bd_test"]
@@ -1002,24 +1084,36 @@ depends-member:
 - ["PSo18UIContentContainer", "textViewShouldEndEditing"]
 - ["PSo18UIContentContainer", "transAll"]
 - ["PSo18UIContentContainer", "transource"]
+- !private ["PSo18UIContentContainer", "view"]
 - ["PSo18UIContentContainer", "viewDidLoad"]
 - ["PSo18UIContentContainer", "viewForZoomingInScrollView"]
 - ["PSo18UIContentContainer", "yd_output"]
 - ["PSo18UIContentContainer", "yd_test"]
 - ["PSo18UIContentContainer", ""]
 - !private ["CSo9UIControl", "resignFirstResponder"]
+- !private ["PSo17UICoordinateSpace", "addSubview"]
+- !private ["PSo17UICoordinateSpace", "init"]
 - !private ["PSo17UICoordinateSpace", "layer"]
 - !private ["PSo17UICoordinateSpace", "resignFirstResponder"]
 - !private ["PSo17UICoordinateSpace", "selectedRowInComponent"]
+- !private ["PSo17UICoordinateSpace", "sendSubviewToBack"]
 - !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "addSubview"]
+- !private ["PSo13UIDynamicItem", "init"]
 - !private ["PSo13UIDynamicItem", "layer"]
 - !private ["PSo13UIDynamicItem", "resignFirstResponder"]
 - !private ["PSo13UIDynamicItem", "selectedRowInComponent"]
+- !private ["PSo13UIDynamicItem", "sendSubviewToBack"]
 - !private ["PSo13UIDynamicItem", "text"]
 - !private ["PSo18UIFocusEnvironment", "Alamofire"]
+- !private ["PSo18UIFocusEnvironment", "CGRectMake"]
 - !private ["PSo18UIFocusEnvironment", "Kanna"]
 - !private ["PSo18UIFocusEnvironment", "NSUTF8StringEncoding"]
 - !private ["PSo18UIFocusEnvironment", "UIColor"]
+- !private ["PSo18UIFocusEnvironment", "UIImage"]
+- !private ["PSo18UIFocusEnvironment", "UIImageView"]
+- !private ["PSo18UIFocusEnvironment", "UIView"]
+- !private ["PSo18UIFocusEnvironment", "addSubview"]
 - ["PSo18UIFocusEnvironment", "bd_dict"]
 - ["PSo18UIFocusEnvironment", "bd_output"]
 - ["PSo18UIFocusEnvironment", "bd_test"]
@@ -1053,6 +1147,7 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "scrollViewWillBeginZooming"]
 - ["PSo18UIFocusEnvironment", "scrollViewWillEndDragging"]
 - !private ["PSo18UIFocusEnvironment", "selectedRowInComponent"]
+- !private ["PSo18UIFocusEnvironment", "sendSubviewToBack"]
 - !private ["PSo18UIFocusEnvironment", "text"]
 - ["PSo18UIFocusEnvironment", "textFieldShouldReturn"]
 - ["PSo18UIFocusEnvironment", "textView"]
@@ -1064,19 +1159,26 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "textViewShouldEndEditing"]
 - ["PSo18UIFocusEnvironment", "transAll"]
 - ["PSo18UIFocusEnvironment", "transource"]
+- !private ["PSo18UIFocusEnvironment", "view"]
 - ["PSo18UIFocusEnvironment", "viewDidLoad"]
 - ["PSo18UIFocusEnvironment", "viewForZoomingInScrollView"]
 - ["PSo18UIFocusEnvironment", "yd_output"]
 - ["PSo18UIFocusEnvironment", "yd_test"]
 - ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo7UIImage", "init"]
+- !private ["CSo11UIImageView", "init"]
 - !private ["PSo10UIKeyInput", "layer"]
 - !private ["PSo10UIKeyInput", "resignFirstResponder"]
 - !private ["PSo10UIKeyInput", "text"]
 - !private ["CSo12UIPickerView", "selectedRowInComponent"]
 - !private ["PSo20UIPickerViewDelegate", "Alamofire"]
+- !private ["PSo20UIPickerViewDelegate", "CGRectMake"]
 - !private ["PSo20UIPickerViewDelegate", "Kanna"]
 - !private ["PSo20UIPickerViewDelegate", "NSUTF8StringEncoding"]
 - !private ["PSo20UIPickerViewDelegate", "UIColor"]
+- !private ["PSo20UIPickerViewDelegate", "UIImage"]
+- !private ["PSo20UIPickerViewDelegate", "UIImageView"]
+- !private ["PSo20UIPickerViewDelegate", "UIView"]
 - !private ["PSo20UIPickerViewDelegate", "bd_dict"]
 - !private ["PSo20UIPickerViewDelegate", "bd_output"]
 - !private ["PSo20UIPickerViewDelegate", "bd_test"]
@@ -1113,21 +1215,27 @@ depends-member:
 - ["PSo20UIPickerViewDelegate", "textViewShouldEndEditing"]
 - !private ["PSo20UIPickerViewDelegate", "transAll"]
 - !private ["PSo20UIPickerViewDelegate", "transource"]
+- !private ["PSo20UIPickerViewDelegate", "view"]
 - ["PSo20UIPickerViewDelegate", "viewForZoomingInScrollView"]
 - !private ["PSo20UIPickerViewDelegate", "yd_output"]
 - !private ["PSo20UIPickerViewDelegate", "yd_test"]
 - ["PSo20UIPickerViewDelegate", ""]
 - !private ["CSo11UIResponder", "Alamofire"]
 - ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "CGRectMake"]
 - ["CSo11UIResponder", "Int"]
 - !private ["CSo11UIResponder", "Kanna"]
 - ["CSo11UIResponder", "NSRange"]
 - !private ["CSo11UIResponder", "NSUTF8StringEncoding"]
 - ["CSo11UIResponder", "String"]
 - !private ["CSo11UIResponder", "UIColor"]
+- !private ["CSo11UIResponder", "UIImage"]
+- !private ["CSo11UIResponder", "UIImageView"]
 - ["CSo11UIResponder", "UIPickerView"]
 - ["CSo11UIResponder", "UITextField"]
 - ["CSo11UIResponder", "UITextView"]
+- !private ["CSo11UIResponder", "UIView"]
+- !private ["CSo11UIResponder", "addSubview"]
 - ["CSo11UIResponder", "bd_dict"]
 - ["CSo11UIResponder", "bd_output"]
 - ["CSo11UIResponder", "bd_test"]
@@ -1161,6 +1269,7 @@ depends-member:
 - ["CSo11UIResponder", "scrollViewWillBeginZooming"]
 - ["CSo11UIResponder", "scrollViewWillEndDragging"]
 - !private ["CSo11UIResponder", "selectedRowInComponent"]
+- !private ["CSo11UIResponder", "sendSubviewToBack"]
 - !private ["CSo11UIResponder", "text"]
 - ["CSo11UIResponder", "textFieldShouldReturn"]
 - ["CSo11UIResponder", "textView"]
@@ -1172,6 +1281,7 @@ depends-member:
 - ["CSo11UIResponder", "textViewShouldEndEditing"]
 - ["CSo11UIResponder", "transAll"]
 - ["CSo11UIResponder", "transource"]
+- !private ["CSo11UIResponder", "view"]
 - ["CSo11UIResponder", "viewDidLoad"]
 - ["CSo11UIResponder", "viewForZoomingInScrollView"]
 - ["CSo11UIResponder", "yd_output"]
@@ -1180,9 +1290,13 @@ depends-member:
 - !private ["CSo12UIScrollView", "resignFirstResponder"]
 - !private ["CSo12UIScrollView", "text"]
 - !private ["PSo20UIScrollViewDelegate", "Alamofire"]
+- !private ["PSo20UIScrollViewDelegate", "CGRectMake"]
 - !private ["PSo20UIScrollViewDelegate", "Kanna"]
 - !private ["PSo20UIScrollViewDelegate", "NSUTF8StringEncoding"]
 - !private ["PSo20UIScrollViewDelegate", "UIColor"]
+- !private ["PSo20UIScrollViewDelegate", "UIImage"]
+- !private ["PSo20UIScrollViewDelegate", "UIImageView"]
+- !private ["PSo20UIScrollViewDelegate", "UIView"]
 - !private ["PSo20UIScrollViewDelegate", "bd_dict"]
 - !private ["PSo20UIScrollViewDelegate", "bd_output"]
 - !private ["PSo20UIScrollViewDelegate", "bd_test"]
@@ -1219,14 +1333,19 @@ depends-member:
 - ["PSo20UIScrollViewDelegate", "textViewShouldEndEditing"]
 - !private ["PSo20UIScrollViewDelegate", "transAll"]
 - !private ["PSo20UIScrollViewDelegate", "transource"]
+- !private ["PSo20UIScrollViewDelegate", "view"]
 - ["PSo20UIScrollViewDelegate", "viewForZoomingInScrollView"]
 - !private ["PSo20UIScrollViewDelegate", "yd_output"]
 - !private ["PSo20UIScrollViewDelegate", "yd_test"]
 - ["PSo20UIScrollViewDelegate", ""]
 - !private ["PSo16UIStateRestoring", "Alamofire"]
+- !private ["PSo16UIStateRestoring", "CGRectMake"]
 - !private ["PSo16UIStateRestoring", "Kanna"]
 - !private ["PSo16UIStateRestoring", "NSUTF8StringEncoding"]
 - !private ["PSo16UIStateRestoring", "UIColor"]
+- !private ["PSo16UIStateRestoring", "UIImage"]
+- !private ["PSo16UIStateRestoring", "UIImageView"]
+- !private ["PSo16UIStateRestoring", "UIView"]
 - ["PSo16UIStateRestoring", "bd_dict"]
 - ["PSo16UIStateRestoring", "bd_output"]
 - ["PSo16UIStateRestoring", "bd_test"]
@@ -1267,6 +1386,7 @@ depends-member:
 - ["PSo16UIStateRestoring", "textViewShouldEndEditing"]
 - ["PSo16UIStateRestoring", "transAll"]
 - ["PSo16UIStateRestoring", "transource"]
+- !private ["PSo16UIStateRestoring", "view"]
 - ["PSo16UIStateRestoring", "viewDidLoad"]
 - ["PSo16UIStateRestoring", "viewForZoomingInScrollView"]
 - ["PSo16UIStateRestoring", "yd_output"]
@@ -1284,9 +1404,13 @@ depends-member:
 - !private ["CSo10UITextView", "resignFirstResponder"]
 - !private ["CSo10UITextView", "text"]
 - !private ["PSo18UITextViewDelegate", "Alamofire"]
+- !private ["PSo18UITextViewDelegate", "CGRectMake"]
 - !private ["PSo18UITextViewDelegate", "Kanna"]
 - !private ["PSo18UITextViewDelegate", "NSUTF8StringEncoding"]
 - !private ["PSo18UITextViewDelegate", "UIColor"]
+- !private ["PSo18UITextViewDelegate", "UIImage"]
+- !private ["PSo18UITextViewDelegate", "UIImageView"]
+- !private ["PSo18UITextViewDelegate", "UIView"]
 - !private ["PSo18UITextViewDelegate", "bd_dict"]
 - !private ["PSo18UITextViewDelegate", "bd_output"]
 - !private ["PSo18UITextViewDelegate", "bd_test"]
@@ -1323,14 +1447,20 @@ depends-member:
 - ["PSo18UITextViewDelegate", "textViewShouldEndEditing"]
 - !private ["PSo18UITextViewDelegate", "transAll"]
 - !private ["PSo18UITextViewDelegate", "transource"]
+- !private ["PSo18UITextViewDelegate", "view"]
 - ["PSo18UITextViewDelegate", "viewForZoomingInScrollView"]
 - !private ["PSo18UITextViewDelegate", "yd_output"]
 - !private ["PSo18UITextViewDelegate", "yd_test"]
 - ["PSo18UITextViewDelegate", ""]
 - !private ["PSo18UITraitEnvironment", "Alamofire"]
+- !private ["PSo18UITraitEnvironment", "CGRectMake"]
 - !private ["PSo18UITraitEnvironment", "Kanna"]
 - !private ["PSo18UITraitEnvironment", "NSUTF8StringEncoding"]
 - !private ["PSo18UITraitEnvironment", "UIColor"]
+- !private ["PSo18UITraitEnvironment", "UIImage"]
+- !private ["PSo18UITraitEnvironment", "UIImageView"]
+- !private ["PSo18UITraitEnvironment", "UIView"]
+- !private ["PSo18UITraitEnvironment", "addSubview"]
 - ["PSo18UITraitEnvironment", "bd_dict"]
 - ["PSo18UITraitEnvironment", "bd_output"]
 - ["PSo18UITraitEnvironment", "bd_test"]
@@ -1364,6 +1494,7 @@ depends-member:
 - ["PSo18UITraitEnvironment", "scrollViewWillBeginZooming"]
 - ["PSo18UITraitEnvironment", "scrollViewWillEndDragging"]
 - !private ["PSo18UITraitEnvironment", "selectedRowInComponent"]
+- !private ["PSo18UITraitEnvironment", "sendSubviewToBack"]
 - !private ["PSo18UITraitEnvironment", "text"]
 - ["PSo18UITraitEnvironment", "textFieldShouldReturn"]
 - ["PSo18UITraitEnvironment", "textView"]
@@ -1375,26 +1506,34 @@ depends-member:
 - ["PSo18UITraitEnvironment", "textViewShouldEndEditing"]
 - ["PSo18UITraitEnvironment", "transAll"]
 - ["PSo18UITraitEnvironment", "transource"]
+- !private ["PSo18UITraitEnvironment", "view"]
 - ["PSo18UITraitEnvironment", "viewDidLoad"]
 - ["PSo18UITraitEnvironment", "viewForZoomingInScrollView"]
 - ["PSo18UITraitEnvironment", "yd_output"]
 - ["PSo18UITraitEnvironment", "yd_test"]
 - ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "addSubview"]
+- !private ["CSo6UIView", "init"]
 - !private ["CSo6UIView", "layer"]
 - !private ["CSo6UIView", "resignFirstResponder"]
 - !private ["CSo6UIView", "selectedRowInComponent"]
+- !private ["CSo6UIView", "sendSubviewToBack"]
 - !private ["CSo6UIView", "text"]
 - !private ["CSo16UIViewController", "Alamofire"]
 - ["CSo16UIViewController", "Bool"]
+- !private ["CSo16UIViewController", "CGRectMake"]
 - ["CSo16UIViewController", "Int"]
 - !private ["CSo16UIViewController", "Kanna"]
 - ["CSo16UIViewController", "NSRange"]
 - !private ["CSo16UIViewController", "NSUTF8StringEncoding"]
 - ["CSo16UIViewController", "String"]
 - !private ["CSo16UIViewController", "UIColor"]
+- !private ["CSo16UIViewController", "UIImage"]
+- !private ["CSo16UIViewController", "UIImageView"]
 - ["CSo16UIViewController", "UIPickerView"]
 - ["CSo16UIViewController", "UITextField"]
 - ["CSo16UIViewController", "UITextView"]
+- !private ["CSo16UIViewController", "UIView"]
 - ["CSo16UIViewController", "bd_dict"]
 - ["CSo16UIViewController", "bd_output"]
 - ["CSo16UIViewController", "bd_test"]
@@ -1435,6 +1574,7 @@ depends-member:
 - ["CSo16UIViewController", "textViewShouldEndEditing"]
 - ["CSo16UIViewController", "transAll"]
 - ["CSo16UIViewController", "transource"]
+- !private ["CSo16UIViewController", "view"]
 - ["CSo16UIViewController", "viewDidLoad"]
 - ["CSo16UIViewController", "viewForZoomingInScrollView"]
 - ["CSo16UIViewController", "yd_output"]
@@ -1474,15 +1614,19 @@ depends-member:
 - !private ["PSs19UnsignedIntegerType", "_DisallowMixedSignArithmetic"]
 - !private ["C2UT14ViewController", "Alamofire"]
 - ["C2UT14ViewController", "Bool"]
+- !private ["C2UT14ViewController", "CGRectMake"]
 - ["C2UT14ViewController", "Int"]
 - !private ["C2UT14ViewController", "Kanna"]
 - ["C2UT14ViewController", "NSRange"]
 - !private ["C2UT14ViewController", "NSUTF8StringEncoding"]
 - ["C2UT14ViewController", "String"]
 - !private ["C2UT14ViewController", "UIColor"]
+- !private ["C2UT14ViewController", "UIImage"]
+- !private ["C2UT14ViewController", "UIImageView"]
 - ["C2UT14ViewController", "UIPickerView"]
 - ["C2UT14ViewController", "UITextField"]
 - ["C2UT14ViewController", "UITextView"]
+- !private ["C2UT14ViewController", "UIView"]
 - ["C2UT14ViewController", "bd_dict"]
 - ["C2UT14ViewController", "bd_output"]
 - ["C2UT14ViewController", "bd_test"]
@@ -1524,6 +1668,7 @@ depends-member:
 - ["C2UT14ViewController", "textViewShouldEndEditing"]
 - ["C2UT14ViewController", "transAll"]
 - ["C2UT14ViewController", "transource"]
+- !private ["C2UT14ViewController", "view"]
 - ["C2UT14ViewController", "viewDidLoad"]
 - ["C2UT14ViewController", "viewForZoomingInScrollView"]
 - ["C2UT14ViewController", "yd_output"]
@@ -1576,6 +1721,7 @@ depends-member:
 - !private ["PSs28_DisallowMixedSignArithmetic", "IntegerLiteralType"]
 - !private ["PSs28_DisallowMixedSignArithmetic", "Stride"]
 - !private ["PSs28_DisallowMixedSignArithmetic", "_DisallowMixedSignArithmetic"]
+- !private ["PSs24_ImageLiteralConvertible", "init"]
 - !private ["PSs14_Incrementable", "Distance"]
 - !private ["PSs14_Incrementable", "IntegerLiteralType"]
 - !private ["PSs14_Incrementable", "Stride"]
@@ -1618,11 +1764,13 @@ depends-member:
 - !private ["PSs12_Reflectable", "Value"]
 - !private ["PSs12_Reflectable", "_DisallowMixedSignArithmetic"]
 - !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "addSubview"]
 - !private ["PSs12_Reflectable", "count"]
 - !private ["PSs12_Reflectable", "init"]
 - !private ["PSs12_Reflectable", "layer"]
 - !private ["PSs12_Reflectable", "resignFirstResponder"]
 - !private ["PSs12_Reflectable", "selectedRowInComponent"]
+- !private ["PSs12_Reflectable", "sendSubviewToBack"]
 - !private ["PSs12_Reflectable", "subscript"]
 - !private ["PSs12_Reflectable", "text"]
 - !private ["PSs18_SignedIntegerType", "Distance"]
@@ -1725,6 +1873,8 @@ depends-nominal:
 - !private "PSo17UICoordinateSpace"
 - !private "PSo13UIDynamicItem"
 - "PSo18UIFocusEnvironment"
+- !private "CSo7UIImage"
+- !private "CSo11UIImageView"
 - !private "PSo10UIKeyInput"
 - !private "CSo12UIPickerView"
 - "PSo20UIPickerViewDelegate"
@@ -1769,6 +1919,7 @@ depends-nominal:
 - !private "PSs24_ColorLiteralConvertible"
 - "PSs24_DestructorSafeContainer"
 - !private "PSs28_DisallowMixedSignArithmetic"
+- !private "PSs24_ImageLiteralConvertible"
 - !private "PSs14_Incrementable"
 - !private "PSs22_IntegerArithmeticType"
 - !private "PSs12_IntegerType"
